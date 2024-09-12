@@ -1,5 +1,11 @@
+import Header from "../components/header";
+
 const Page: React.FC = ({}) => {
-  return <div>Hi</div>;
+  return (
+    <div className="w-full">
+      <Header />
+    </div>
+  );
 };
 
 export default Page;
